@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      },
+      {
+        "value": "CUSTOM:Conpressedenderpearl"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nigitmareeye"
+    },
+    "name": "nightmareeye",
+    "namespace": "mod"
+  }
+}

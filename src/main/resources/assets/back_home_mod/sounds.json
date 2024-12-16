@@ -1,0 +1,19 @@
+{
+  "koukaonn": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "back_home_mod:zombie_hit_metal2",
+        "stream": false
+      },
+      {
+        "name": "back_home_mod:zombie_convert_to_drowned2",
+        "stream": false
+      },
+      {
+        "name": "back_home_mod:zombie_hit_metal3",
+        "stream": false
+      }
+    ]
+  }
+}

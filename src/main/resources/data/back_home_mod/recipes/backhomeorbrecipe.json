@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "1": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "2": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "3": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "4": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "5": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "6": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "7": {
+      "item": "back_home_mod:compressedcopperblock"
+    },
+    "8": {
+      "item": "back_home_mod:compressedcopperblock"
+    }
+  },
+  "result": {
+    "item": "back_home_mod:backhomeorb",
+    "count": 1
+  }
+}

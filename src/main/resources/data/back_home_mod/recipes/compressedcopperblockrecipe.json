@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    {
+      "item": "back_home_mod:compressedcopperingot"
+    }
+  ],
+  "result": {
+    "item": "back_home_mod:compressedcopperblock",
+    "count": 1
+  }
+}

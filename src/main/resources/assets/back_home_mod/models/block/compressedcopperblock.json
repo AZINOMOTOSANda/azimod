@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "back_home_mod:blocks/compressed_copper_block",
+    "up": "back_home_mod:blocks/compressed_copper_block",
+    "north": "back_home_mod:blocks/compressed_copper_block",
+    "east": "back_home_mod:blocks/compressed_copper_block",
+    "south": "back_home_mod:blocks/compressed_copper_block",
+    "west": "back_home_mod:blocks/compressed_copper_block",
+    "particle": "back_home_mod:blocks/compressed_copper_block"
+  }
+}

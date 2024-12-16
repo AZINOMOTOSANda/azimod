@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "back_home_mod:conpressedenderpearl"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_pearl",
+    "count": 4
+  }
+}

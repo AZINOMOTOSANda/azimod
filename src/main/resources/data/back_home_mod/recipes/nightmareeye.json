@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "1": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "2": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "3": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "4": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "5": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "6": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "7": {
+      "item": "back_home_mod:conpressedenderpearl"
+    },
+    "8": {
+      "item": "back_home_mod:conpressedenderpearl"
+    }
+  },
+  "result": {
+    "item": "back_home_mod:nigitmareeye",
+    "count": 1
+  }
+}

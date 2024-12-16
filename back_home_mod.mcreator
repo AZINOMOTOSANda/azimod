@@ -1,0 +1,273 @@
+{
+  "mod_elements": [
+    {
+      "name": "Compressedcopperingot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcopperingot"
+    },
+    {
+      "name": "Backhome",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "backhome",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Backhomeorb",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backhomeorb"
+    },
+    {
+      "name": "Cmopresscopper",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cmopresscopper"
+    },
+    {
+      "name": "Compressedcopperblock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcopperblock"
+    },
+    {
+      "name": "Compressedcopperblockrecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcopperblockrecipe"
+    },
+    {
+      "name": "Backhomeorbrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backhomeorbrecipe"
+    },
+    {
+      "name": "Copperpickel",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickel"
+    },
+    {
+      "name": "Copperpickelrecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperpickelrecipe"
+    },
+    {
+      "name": "ReturnCopperingot1",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_copperingot_1"
+    },
+    {
+      "name": "ReturnCopperingot2",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_copperingot_2"
+    },
+    {
+      "name": "Coppersovel",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppersovel"
+    },
+    {
+      "name": "Compressedcoppershovel2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressedcoppershovel_2"
+    },
+    {
+      "name": "Coppershoveleffect",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coppershoveleffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nightmarering",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nightmarering",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conpressedenderpearl",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conpressedenderpearl"
+    },
+    {
+      "name": "Conpressendereye",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conpressendereye"
+    },
+    {
+      "name": "Returnendereye",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnendereye"
+    },
+    {
+      "name": "Runcode",
+      "type": "tag",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runcode"
+    },
+    {
+      "name": "Nigitmareeye",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nigitmareeye"
+    },
+    {
+      "name": "Nightmareeye",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmareeye"
+    },
+    {
+      "name": "Nightmareringrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmareringrecipe"
+    },
+    {
+      "name": "Nightmareringitem",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nightmareringitem"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "koukaonn",
+      "files": [
+        "zombie_hit_metal2",
+        "zombie_convert_to_drowned2",
+        "zombie_hit_metal3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.back_home_mod.copperpickel": "銅のピッケル",
+      "block.back_home_mod.compressedcopperblock": "圧縮銅ブロック",
+      "item.back_home_mod.nightmareringitem": "深淵の指輪",
+      "item.back_home_mod.coppersovel": "圧縮銅シャベル",
+      "item.back_home_mod.conpressedenderpearl": "圧縮エンダーパール",
+      "item.back_home_mod.nigitmareeye": "深淵の瞳",
+      "item.back_home_mod.compressedcopperingot": "圧縮銅インゴット",
+      "item.back_home_mod.backhomeorb": "帰還のオーブ",
+      "subtitles.koukaonn": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "back_home_mod",
+    "modName": "back_home_mod",
+    "version": "1.0.0",
+    "author": "yuto1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.backhomemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
