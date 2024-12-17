@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "back_home_mod:items/conpressed_copper_pickel"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "back_home_mod:emeraldpickel"
+    },
+    "title": {
+      "translate": "advancements.good_experience.title"
+    },
+    "description": {
+      "translate": "advancements.good_experience.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "good_experience": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

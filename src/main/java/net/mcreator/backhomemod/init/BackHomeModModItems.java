@@ -18,6 +18,7 @@ import net.mcreator.backhomemod.item.NightmareringitemItem;
 import net.mcreator.backhomemod.item.CoppersovelItem;
 import net.mcreator.backhomemod.item.CopperpickelItem;
 import net.mcreator.backhomemod.item.ConpressedenderpearlItem;
+import net.mcreator.backhomemod.item.ConpressCopperpickelItem;
 import net.mcreator.backhomemod.item.CompressedcopperingotItem;
 import net.mcreator.backhomemod.item.BackhomeorbItem;
 import net.mcreator.backhomemod.BackHomeModMod;
@@ -34,6 +35,7 @@ public class BackHomeModModItems {
 	public static final RegistryObject<Item> CONPRESSEDENDERPEARL = REGISTRY.register("conpressedenderpearl", () -> new ConpressedenderpearlItem());
 	public static final RegistryObject<Item> NIGITMAREEYE = REGISTRY.register("nigitmareeye", () -> new NigitmareeyeItem());
 	public static final RegistryObject<Item> NIGHTMARERINGITEM = REGISTRY.register("nightmareringitem", () -> new NightmareringitemItem());
+	public static final RegistryObject<Item> CONPRESS_COPPERPICKEL = REGISTRY.register("conpress_copperpickel", () -> new ConpressCopperpickelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
