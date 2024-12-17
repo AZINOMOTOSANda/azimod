@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "conpressed_copper_pickel",
     "customModelName": "Normal",
-    "name": "Conpress Copperpickel",
+    "name": "圧縮銅ピッケル",
     "specialInfo": [
       "強い！早い！！お腹も空く！！！"
     ],
@@ -18,7 +18,7 @@
     "attackSpeed": 1.0,
     "enchantability": 0,
     "damageVsEntity": 4.0,
-    "usageCount": 3000,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],

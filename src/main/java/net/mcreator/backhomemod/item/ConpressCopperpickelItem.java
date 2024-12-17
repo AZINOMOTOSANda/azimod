@@ -21,7 +21,7 @@ public class ConpressCopperpickelItem extends PickaxeItem {
 	public ConpressCopperpickelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 3000;
+				return 1500;
 			}
 
 			public float getSpeed() {

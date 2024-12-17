@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    "1": {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    "2": {
+      "item": "back_home_mod:compressedcopperingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "back_home_mod:conpress_copperpickel",
+    "count": 1
+  }
+}
