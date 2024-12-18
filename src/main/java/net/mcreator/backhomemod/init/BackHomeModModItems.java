@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.backhomemod.item.NigitmareeyeItem;
 import net.mcreator.backhomemod.item.NightmareringitemItem;
+import net.mcreator.backhomemod.item.CopperswordItem;
 import net.mcreator.backhomemod.item.CoppersovelItem;
 import net.mcreator.backhomemod.item.CopperpickelItem;
 import net.mcreator.backhomemod.item.ConpressedenderpearlItem;
@@ -36,6 +37,7 @@ public class BackHomeModModItems {
 	public static final RegistryObject<Item> NIGITMAREEYE = REGISTRY.register("nigitmareeye", () -> new NigitmareeyeItem());
 	public static final RegistryObject<Item> NIGHTMARERINGITEM = REGISTRY.register("nightmareringitem", () -> new NightmareringitemItem());
 	public static final RegistryObject<Item> CONPRESS_COPPERPICKEL = REGISTRY.register("conpress_copperpickel", () -> new ConpressCopperpickelItem());
+	public static final RegistryObject<Item> COPPERSWORD = REGISTRY.register("coppersword", () -> new CopperswordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
