@@ -19,5 +19,8 @@
     "good_experience": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 10000
   }
 }

@@ -15,6 +15,11 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.backhomemod.item.NigitmareeyeItem;
 import net.mcreator.backhomemod.item.NightmareringitemItem;
+import net.mcreator.backhomemod.item.EmeraldswordItem;
+import net.mcreator.backhomemod.item.EmeraldshovelItem;
+import net.mcreator.backhomemod.item.EmeraldpickelItem;
+import net.mcreator.backhomemod.item.EmeraldhoeItem;
+import net.mcreator.backhomemod.item.EmeraldaxeItem;
 import net.mcreator.backhomemod.item.CopperswordItem;
 import net.mcreator.backhomemod.item.CoppersovelItem;
 import net.mcreator.backhomemod.item.CopperpickelItem;
@@ -38,6 +43,11 @@ public class BackHomeModModItems {
 	public static final RegistryObject<Item> NIGHTMARERINGITEM = REGISTRY.register("nightmareringitem", () -> new NightmareringitemItem());
 	public static final RegistryObject<Item> CONPRESS_COPPERPICKEL = REGISTRY.register("conpress_copperpickel", () -> new ConpressCopperpickelItem());
 	public static final RegistryObject<Item> COPPERSWORD = REGISTRY.register("coppersword", () -> new CopperswordItem());
+	public static final RegistryObject<Item> EMERALDPICKEL = REGISTRY.register("emeraldpickel", () -> new EmeraldpickelItem());
+	public static final RegistryObject<Item> EMERALDSWORD = REGISTRY.register("emeraldsword", () -> new EmeraldswordItem());
+	public static final RegistryObject<Item> EMERALDSHOVEL = REGISTRY.register("emeraldshovel", () -> new EmeraldshovelItem());
+	public static final RegistryObject<Item> EMERALDAXE = REGISTRY.register("emeraldaxe", () -> new EmeraldaxeItem());
+	public static final RegistryObject<Item> EMERALDHOE = REGISTRY.register("emeraldhoe", () -> new EmeraldhoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
