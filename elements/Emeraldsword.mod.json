@@ -8,13 +8,13 @@
     "name": "エメラルドの剣",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Azimod"
     },
     "toolType": "Sword",
     "harvestLevel": 3,
-    "efficiency": 4.0,
-    "attackSpeed": 1.6,
-    "enchantability": 10,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
     "damageVsEntity": 7.0,
     "usageCount": 1561,
     "blocksAffected": [],
@@ -22,9 +22,6 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onItemInUseTick": {
-      "name": "Emeraldtoolfortune"
-    }
+    "damageOnCrafting": false
   }
 }

@@ -9,7 +9,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.backhomemod.init.BackHomeModModTabs;
 
 public class CopperswordItem extends SwordItem {
 	public CopperswordItem() {
@@ -37,7 +38,7 @@ public class CopperswordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(BackHomeModModTabs.TAB_AZIMOD));
 	}
 
 	@Override

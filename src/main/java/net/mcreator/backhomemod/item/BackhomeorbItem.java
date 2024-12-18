@@ -6,7 +6,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
@@ -14,12 +13,13 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.backhomemod.procedures.BackhomeProcedure;
+import net.mcreator.backhomemod.init.BackHomeModModTabs;
 
 import java.util.List;
 
 public class BackhomeorbItem extends Item {
 	public BackhomeorbItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(BackHomeModModTabs.TAB_AZIMOD).stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override

@@ -5,7 +5,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
@@ -17,6 +16,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.backhomemod.procedures.NightmareringProcedure;
+import net.mcreator.backhomemod.init.BackHomeModModTabs;
 
 import java.util.List;
 
@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class NightmareringitemItem extends Item {
 	public NightmareringitemItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(100));
+		super(new Item.Properties().tab(BackHomeModModTabs.TAB_AZIMOD).durability(100));
 	}
 
 	@Override

@@ -16,7 +16,6 @@ public class BackhomeProcedure {
         if (entity == null || itemstack == null)
             return;
 
-        // アイテムを持っているかを判定
         if (!(entity instanceof Player _playerHasItem
                 ? _playerHasItem.getMainHandItem() == itemstack
                 : false)) {
@@ -26,7 +25,6 @@ public class BackhomeProcedure {
             return;
         }
 
-        // カウントダウンの開始
         startCountdown(world, entity, itemstack, 3); // 3秒
     }
 
@@ -41,7 +39,6 @@ public class BackhomeProcedure {
         }
 
         scheduleWork(() -> {
-            // 1秒後に再チェック
             if (isItemStillHeld(entity, itemstack)) {
                 startCountdown(world, entity, itemstack, secondsLeft - 1);
             } else {
@@ -57,14 +54,11 @@ public class BackhomeProcedure {
             _player.displayClientMessage(new TextComponent("Back Home"), true);
         }
 
-        // アイテムを消費
         itemstack.shrink(1);
 
-        // テレポート処理
         if (entity instanceof ServerPlayer _serverPlayer) {
             BlockPos respawnPos = _serverPlayer.getRespawnPosition();
-
-            // リスポーン地点の有効性を確認
+            
             if (respawnPos != null) {
                 boolean isBedSpawnValid = _serverPlayer.level.getBlockState(respawnPos)
                         .isBed(_serverPlayer.level, respawnPos, _serverPlayer);
@@ -81,7 +75,6 @@ public class BackhomeProcedure {
                         world.getLevelData().getZSpawn());
             }
 
-            // ワールドを ServerLevel にキャストしてテレポート
             if (world instanceof ServerLevel serverWorld) {
                 _serverPlayer.teleportTo(serverWorld,
                         respawnPos.getX() + 0.5,
@@ -93,13 +86,11 @@ public class BackhomeProcedure {
         }
     }
 
-    // アイテムを保持しているか確認するヘルパーメソッド
     private static boolean isItemStillHeld(Entity entity, ItemStack itemstack) {
         return entity instanceof Player _player
                 && _player.getMainHandItem() == itemstack;
     }
 
-    // スケジュール処理（代替方法）
     private static void scheduleWork(Runnable action, int delayTicks) {
         new Thread(() -> {
             try {

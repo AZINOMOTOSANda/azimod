@@ -1,8 +1,9 @@
 
 package net.mcreator.backhomemod.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -12,14 +13,15 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.backhomemod.procedures.EmeraldtoolfortuneProcedure;
 import net.mcreator.backhomemod.procedures.GoodExperienceaddProcedure;
 import net.mcreator.backhomemod.init.BackHomeModModTabs;
 
-public class EmeraldshovelItem extends ShovelItem {
-	public EmeraldshovelItem() {
+public class EmeraldapickelItem extends PickaxeItem {
+	public EmeraldapickelItem() {
 		super(new Tier() {
 			public int getUses() {
 				return 1561;
@@ -53,8 +55,8 @@ public class EmeraldshovelItem extends ShovelItem {
 		if (selected)
 			EmeraldtoolfortuneProcedure.execute(entity);
 	}
-	
-	@Override
+
+    @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         boolean result = super.hurtEnemy(stack, target, attacker);
         if (stack.getDamageValue() >= stack.getMaxDamage()) {

@@ -8,7 +8,7 @@
     "name": "帰還のオーブ",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Azimod"
     },
     "stackSize": 64,
     "enchantability": 0,

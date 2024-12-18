@@ -8,7 +8,7 @@
     "name": "圧縮銅インゴット",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Azimod"
     },
     "stackSize": 64,
     "enchantability": 0,

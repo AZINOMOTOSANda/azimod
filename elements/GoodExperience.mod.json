@@ -15,7 +15,7 @@
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
-    "rewardXP": 10000,
+    "rewardXP": 0,
     "achievementType": "task",
     "parent": {
       "value": "No parent: root"

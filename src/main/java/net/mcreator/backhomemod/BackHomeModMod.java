@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.backhomemod.init.BackHomeModModTabs;
 import net.mcreator.backhomemod.init.BackHomeModModItems;
 import net.mcreator.backhomemod.init.BackHomeModModBlocks;
 
@@ -43,7 +44,7 @@ public class BackHomeModMod {
 	private static int messageID = 0;
 
 	public BackHomeModMod() {
-
+		BackHomeModModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BackHomeModModBlocks.REGISTRY.register(bus);
 		BackHomeModModItems.REGISTRY.register(bus);

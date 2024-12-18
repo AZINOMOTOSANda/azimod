@@ -5,16 +5,16 @@
     "renderType": 0,
     "texture": "emerrald_hoe",
     "customModelName": "Normal",
-    "name": "エメラルドのくわ",
+    "name": "エメラルドのクワ",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Azimod"
     },
-    "toolType": "Hoe",
+    "toolType": "Spade",
     "harvestLevel": 3,
     "efficiency": 10.0,
     "attackSpeed": 1.0,
-    "enchantability": 10,
+    "enchantability": 0,
     "damageVsEntity": 4.0,
     "usageCount": 1561,
     "blocksAffected": [],

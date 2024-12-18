@@ -8,13 +8,13 @@
     "name": "エメラルドの斧",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Azimod"
     },
     "toolType": "Axe",
     "harvestLevel": 3,
     "efficiency": 10.0,
     "attackSpeed": 1.0,
-    "enchantability": 10,
+    "enchantability": 0,
     "damageVsEntity": 9.0,
     "usageCount": 1561,
     "blocksAffected": [],
