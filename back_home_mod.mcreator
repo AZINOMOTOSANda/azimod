@@ -363,6 +363,14 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "emeraldapickel"
+    },
+    {
+      "name": "Gunmaketokyo",
+      "type": "gui",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunmaketokyo"
     }
   ],
   "variable_elements": [],

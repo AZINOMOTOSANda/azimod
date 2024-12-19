@@ -44,7 +44,7 @@ public class EmeraldswordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(BackHomeModModTabs.TAB_AZIMOD));
+		}, 3, -2.4f, new Item.Properties().tab(BackHomeModModTabs.TAB_AZIMOD));
 	}
 	
 	@Override
